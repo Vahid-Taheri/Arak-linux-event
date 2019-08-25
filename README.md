@@ -15,5 +15,5 @@
 
 ## TODO
 - [ ] Add seo tags by react-helmet
-- [ ] Remove bootstrap, just keep used css
++ [ ] Remove bootstrap, just keep used css
 

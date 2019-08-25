@@ -1,5 +1,5 @@
 import React from 'react'
-
+import ReactTooltip from 'react-tooltip'
 
 const Sponsers = (props) => (
     <section className="Sponcers container">
@@ -17,6 +17,7 @@ export default Sponsers
 export const Sponser = (props) => (
     <div className="item clearfix col-md-2 col-sm-3 col-4" style={{display: "inline-block"}}>
         <img src={require(`../images/Sponcers/${props.LatinName}.png`)} alt={props.Name}
-             data-toggle="tooltip" data-placement="top" title={props.Name}/>
+            data-tip={props.Name} title={props.Name}/>
+            <ReactTooltip />
     </div>
 );

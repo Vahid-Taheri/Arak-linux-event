@@ -1,5 +1,4 @@
 import React from 'react'
-
 const Holders = (props) => (
     <section className="Holders container">
                 <h2>{props.data.Title}</h2>
@@ -13,7 +12,7 @@ const Holders = (props) => (
 export default Holders
 
 export const Holder = (props) => (
-    <div className={"item clearfix col-md-4 col-12 col-sm-6"}>
+    <div className={"item clearfix col-md-4 col-12 col-sm-6 "}>
                 <div className="item-container">
                     <img className="item-image" alt={props.Name}
                          src={require(`../images/Guests/${props.LatinName}.png`)}/>

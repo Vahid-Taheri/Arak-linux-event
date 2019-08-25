@@ -6,5 +6,4 @@
 
 // You can delete this file if you're not using it
 
-import "./src/styles/bootstrap.min.css"
 import "./src/styles/style.css"

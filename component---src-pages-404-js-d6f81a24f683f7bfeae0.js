@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{189:function(e,n,t){"use strict";t.r(n);var a=t(0),r=t.n(a);n.default=function(){return r.a.createElement("div",null,r.a.createElement("h1",null,"صفحه مورد نظر یافت نشد!"),r.a.createElement("a",{href:"/"},"بازگشت به صفحه اصلی"))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-d6f81a24f683f7bfeae0.js.map

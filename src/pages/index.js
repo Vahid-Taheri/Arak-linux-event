@@ -10,8 +10,8 @@ import Sponsers from "../components/Sponsers";
 
 let data = {
     SiteInfo: {
-        Title: "همایش نرم افزارهای متن باز و جشن رونمایی از اوبونتو 19.10",
-        Desc: "همایش نرم افزارهای متن باز و جشن رونمایی از اوبونتو 19.10",
+        Title: "همایش لینوکس و برنامه نویسی",
+        Desc: "همایش لینوکس و برنامه نویسی",
         RegisterLink: "#"
     },
     timeline: {
@@ -76,61 +76,40 @@ let data = {
         Title: "برگزارکنندگان",
         Items: [
             {
-                Name: "اسم فامیل",
-                LatinName: "guest1",
+                Name: "معصومه غلامی",
+                LatinName: "Masoome Gholami",
                 Description: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.",
                 Social: {
-                    Instagram: "#",
-                    LinkedIn: "#",
-                    Telegram: "#"
-                }
-            }, {
-                Name: "اسم فامیل",
-                LatinName: "guest2",
-                Description: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.",
-                Social: {
-                    Instagram: "#",
-                    LinkedIn: "#",
-                    Telegram: "#"
+                    LinkedIn: "https://ir.linkedin.com/in/masoumeh-gholami-07ab8574/"
                 }
             },
             {
-                Name: "اسم فامیل",
-                LatinName: "guest1",
+                Name: "حسام الدین کاوه",
+                LatinName: "Hesam Kaveh",
                 Description: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.",
                 Social: {
-                    Instagram: "#",
-                    LinkedIn: "#",
-                    Telegram: "#"
+                    LinkedIn: "https://ir.linkedin.com/in/hesamkaveh"
                 }
-            }, {
-                Name: "اسم فامیل",
-                LatinName: "guest2",
+            },
+            {
+                Name: "وحید طاهری",
+                LatinName: "Vahid Taheri",
+                Description: 
+                ["برنامه نویس سمت کاربر",<br/>,
+                "شرایط کاری و نرم افزارهایی که باهاش کار میکنه بهش اجازه نمیدن تماما لینوکسی باشه اما لینوکس رو خیلی دوست داره.",<br/>,
+                "توزیع محبوبش Arch و میز کارش Gnome!"],
+                Social: {
+                    LinkedIn: "https://ir.linkedin.com/in/98vahidtaheri/"
+                }
+            },
+            {
+                Name: "بهراد باقری",
+                LatinName: "Behrad Bagheri",
                 Description: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.",
                 Social: {
-                    Instagram: "#",
-                    LinkedIn: "#",
-                    Telegram: "#"
+                    LinkedIn: "https://ir.linkedin.com/in/behrad-bagehri-ab880b10b/"
                 }
-            }, {
-                Name: "اسم فامیل",
-                LatinName: "guest1",
-                Description: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.",
-                Social: {
-                    Instagram: "#",
-                    LinkedIn: "#",
-                    Telegram: "#"
-                }
-            }, {
-                Name: "اسم فامیل",
-                LatinName: "guest2",
-                Description: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.",
-                Social: {
-                    Instagram: "#",
-                    LinkedIn: "#",
-                    Telegram: "#"
-                }
-            }
+            },
         ]
     },
     sponcers: {
@@ -164,14 +143,14 @@ let data = {
 
 const IndexPage = () => (
     <div className="page">
-        <Header data={data.SiteInfo}/>
-        <Cover data={data.SiteInfo}/>
-        <ColoredBlock data={data.alert}/>
-        <Timeline data={data.timeline}/>
-        <Guests data={data.guests}/>
-        <Holders data={data.holders}/>
+        <Header data={data.SiteInfo} />
+        <Cover data={data.SiteInfo} />
+        <ColoredBlock data={data.alert} />
+        <Timeline data={data.timeline} />
+        <Guests data={data.guests} />
+        <Holders data={data.holders} />
         <HoldingPlace /*data={holdingPlace}*/ />
-        <Sponsers data={data.sponcers}/>
+        <Sponsers data={data.sponcers} />
     </div>
 );
 

@@ -15,7 +15,7 @@ export const Holder = (props) => (
     <div className={"item clearfix col-md-4 col-12 col-sm-6 "}>
                 <div className="item-container">
                     <img className="item-image" alt={props.Name}
-                         src={require(`../images/Guests/${props.LatinName}.png`)}/>
+                         src={require(`../images/Holders/${props.LatinName}.jpg`)}/>
                     <div className="item-description text-align-right">
                         {props.Social ?
                             <div className="item-social">

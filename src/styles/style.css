@@ -59,6 +59,7 @@
   padding-right: 15px;
   padding-left: 15px;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .container-fluid {
@@ -82,6 +83,7 @@
   clear: both;
   content: ""
 }
+
 .no-gutters {
   margin-right: 0;
   margin-left: 0
@@ -91,6 +93,7 @@
   padding-right: 0;
   padding-left: 0
 }
+
 .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
   position: relative;
   width: 100%;
@@ -199,12 +202,15 @@ body {
   direction: rtl;
   background-color: #F4F5F0;
 }
-h1,h2,h3,h4,h5,h6 {
+
+h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
-p{
+
+p {
   margin: 0;
 }
+
 .text-align-right {
   text-align: right;
 }
@@ -221,6 +227,12 @@ p{
   top: 0;
   left: 0;
   background-color: #FFFFFF;
+}
+
+.header.fixed {
+  position: fixed;
+  z-index: 999;
+  box-shadow: 0 0 5px #555;
 }
 
 h2#siteTitle {
@@ -267,6 +279,7 @@ h2#siteTitle {
   font-size: 10pt;
   padding: 7px 40px;
   text-decoration: none;
+  text-align: center;
 }
 
 .btn-primary {
@@ -340,7 +353,7 @@ section>h2 {
 
 .timeline>.items {
   border-right: solid #B0B0B0 2px;
-  margin-right: 20px;
+  margin-right: 65px;
 }
 
 .timeline .item {
@@ -394,13 +407,14 @@ section>h2 {
 }
 
 .Guests .item-description>p {
-  color: #b9b9b9;
+  color: #646464;
   font-size: 14pt;
+  text-align: justify;
 }
 
 .Guests .item.right>.item-image {
   float: right;
-  margin-left: 50px;
+  margin-left: 10px;
 }
 
 .Guests .item.right>.item-description {
@@ -409,7 +423,7 @@ section>h2 {
 
 .Guests .item.left>.item-image {
   float: left;
-  margin-right: 50px;
+  margin-right: 10px;
 }
 
 .Guests .item.left>.item-description {
@@ -429,6 +443,7 @@ section>h2 {
   position: relative;
   padding: 0;
   margin: 10px;
+  display: grid;
 }
 
 .Holders .item-image {
@@ -462,11 +477,19 @@ section>h2 {
   height: 0;
   opacity: 0;
   transition: inherit;
+  visibility: hidden;
+  font-size: 11pt;
+  font-weight: lighter;
+  text-align: justify;
+  line-height: 2;
 }
 
 .Holders .item-description:hover>p {
   height: 100%;
   opacity: 1;
+  visibility: visible;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 .Holders .item-title {

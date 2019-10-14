@@ -2,9 +2,9 @@ import React from 'react'
 import ReactTooltip from 'react-tooltip'
 
 const Sponsers = (props) => (
-    <section className="Sponcers container">
-        <h2>{props.data.Title}</h2>
-        <div className="items clearfix">
+    <section className="Sponcers">
+        <h2 id="section-title">{props.data.Title}</h2>
+        <div className="items clearfix container">
             {props.data.Items.map(item =>
                 <Sponser key={props.data.Items.indexOf(item)} {...item} />
             )}
@@ -15,9 +15,9 @@ export default Sponsers
 
 
 export const Sponser = (props) => (
-    <div className="item clearfix col-md-2 col-sm-3 col-4" style={{display: "inline-block"}}>
+    <a href={props.Link} rel="nofollow" className="item clearfix">
         <img src={require(`../images/Sponcers/${props.LatinName}.png`)} alt={props.Name}
-            data-tip={props.Name} title={props.Name}/>
-            <ReactTooltip />
-    </div>
+            data-tip={props.Name} title={props.Name} />
+        <ReactTooltip effect="solid" />
+    </a>
 );

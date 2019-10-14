@@ -1,5 +1,7 @@
 module.exports = {
-
+  siteMetadata: {
+    title: `همایش لینوکس و برنامه نویسی`,
+  },
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
@@ -14,13 +16,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `همایش لینوکس و برنامه نویسی`,
+        short_name: `همایش لینوکس و برنامه نویسی`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/ubuntu-logo.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

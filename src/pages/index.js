@@ -79,15 +79,6 @@ let data = {
         Title: "ارائه دهندگان",
         Items: [
             {
-                Name: "بهراد اسلامی فر",
-                LatinName: "BEslamifar",
-                Description:
-                    " ",
-                Social: {
-                    LinkedIn: "https://ir.linkedin.com/in/behradeslamifar/"
-                }
-            },
-            {
                 Name: "لقمان آوند",
                 LatinName: "DRAvand",
                 Description:
@@ -180,6 +171,22 @@ let data = {
                 }
             },
             {
+                Name: "حسام الدین کاوه",
+                LatinName: "Hesam Kaveh",
+                Description:
+                    "مهندسی نرم افزار میخونه اما هیچوقت به دانشجو بودنش افتخار نکرده. عقیده داره دانشگاه بیشتر از دو سه ترم بدرد نمیخوره. اگه پایتون و جاوااسکریپت رو نوعی ورزش حساب کنیم بیشتر وقتشو مشغول ورزشه. اوقات فراغتش هم با دوچرخه میزنه به دل جاده و شهر های مختلفو میگرده.",
+                Social: {
+                    LinkedIn: "https://ir.linkedin.com/in/hesamkaveh"
+                }
+            },
+            {
+                Name: "محمد مسلمی",
+                LatinName: "MMoslemi",
+                Description : "[Embedded] Computerist! Unixman... Software Liberation Promoter...",
+                Social: {
+                }
+            },
+            {
                 Name: "علی مولایی",
                 LatinName: "Ali Molaei",
                 Description: "علی مولایی، برنامه‌نویس و دوستدار نرم‌افزار آزاد، فارغ‌التحصیل کارشناسی دانشگاه اراک و دانشجوی کارشناسی ارشد نرم‌افزار دانشگاه شیراز، آماده برای تبلیغ و ترویج استفاده از نرم‌افزار آزاد در این جشن انتشار اوبونتوست!",
@@ -193,7 +200,11 @@ let data = {
                 Name: "مهدی مهران فرید",
                 LatinName: "MMehranfarid",
                 Description:
-                    " ",
+                    ["موسس خانه لینوکس ایران، مدیرعامل فناوران آنیسا، طراح دوره های حرفه ای مدیریت سیستم های لینوکس، توسعه نرم افزار ، DevOps، IOT و Data Science ",
+                        "<br>",
+                        "15 سال به صورت حرفه ای و بی وقفه در لقب استاد تمامی لینوکس، این دانش به روز و دست اول رو به بیش از 15 هزار دانشجوی علاقه مند به این حوزه آموزش داده و اساتید بسیاری رو هم تربیت کرده و به اینکه دانش آموخته هاش رو در بهترین رتبه های شغلی شرکت های بزرگی مثل Dell، Amazon و حتی NASA مشغول به کار می بینه، افتخار می کنه.",
+                        "<br>",
+                        "در این رویداد حضور داره تا برای قرار گرفتن شما در مسیر طلایی ای که برای ورود به بزرگترین شرکت های دنیا پیش رو دارید راهنماییتون کنه."],
                 Social: {
                     LinkedIn: "https://ir.linkedin.com/in/mehdi-mehranfarid-07604535/"
                 }
@@ -276,9 +287,10 @@ let data = {
                 }
             },
             {
-                Name: "شرکت روپل",
+                Name: "شرکت داده افزار روپل",
                 LatinName: "Roupel",
                 Social: {
+                    Instagram: "https://www.instagram.com/roupel.datamining"
                 }
             },
             {
@@ -328,6 +340,11 @@ let data = {
                 Name: "استیکر لپتاپ فلربو",
                 LatinName: "Flerbo",
                 Link: "https://flerbo.ir/"
+            },
+            {
+                Name: "ایران سرور | بزرگترین و محبوبترین ارائه دهنده خدمات میزبانی و دامنه",
+                LatinName: "Iranserver",
+                Link: "https://www.iranserver.com/"
             },
             {
                 Name: "دانشگاه اراک",

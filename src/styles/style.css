@@ -513,7 +513,13 @@ section h2#section-title {
   transition: all linear 0.5s;
   box-sizing: border-box;
 }
+.Holders .item-description h3 {
+  background-color: rgba(0,0,0,0.8);
+  float: right;
+  display: table;
+  padding: 5px 10px;
 
+}
 .item-social>a {
   color: inherit;
   font-size: 20pt;
@@ -532,7 +538,7 @@ section h2#section-title {
 .Sponcers .item {
   display: inline-block;
   max-width: 100px;
-  margin: 0 15px;
+  margin: 0 10px;
 }
 
 .Sponcers .item>img {
